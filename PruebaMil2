@@ -9,7 +9,7 @@ public class PracticaEntornos {
         System.out.print("Introduce tu edad: ");
         int edad = scanner.nextInt();
 
-        // Comprobar si la edad está entre 18 y 66
+        // Comprobar si la edad está entre 18 y 70
         if (edad < 18 || edad > 65) {
             System.out.println("La edad debe estar entre 18 y 65 años.");
         } else {
